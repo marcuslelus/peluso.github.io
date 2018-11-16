@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peluso</title>
+	<link rel="icon" href="../../images/icon.ico">
+	<link rel="stylesheet" type="text/css" href="../../css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,600" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+		<div id="trigger">
+			<a href="#container"><img src="../../images/up-icon.png" id="scroll-btn" alt="Monter en haut"></a>
+		</div>
+		<header>
+			<div id="logo">
+				<a href="../../index.html">
+					<img id="logo_image" src="../../images/logodroit.png" alt="Logo de Peluso">
+					<span id="logo_text"><img src="../../images/peluso.png" alt="PELUSO" style="height:52px;"></span>
+				</a>
+			</div>
+
+			<nav class="nav">
+				<ul>
+					<li><a href="../../index.html">accueil</a></li>
+					<li><a href="../catalogue/index.html">catalogue</a>
+
+					</li>
+					<li><a href="../galerie/index.html">galerie</a></li>
+					<li class="active"><a href="index.html">contact<i class="fleche">&nbsp;<img src="images/fleche-active.png" alt="fleche" style="height:5px;"></i></a>
+						<ul>
+							<li><a href="index.html#form-container">nous joindre</a></li>
+							<li><a href="index.html#faq">f.a.q</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="contact-page">
+			<div class="left">
+
+				<div class="size-reduced">
+					<div>
+						<a href="#succursale-map">
+							<h2>ADRESSE</h2>
+						</a>
+
+						<h3><a href="https://www.google.ca/maps/place/Peluso+Beaubien/@45.532654,-73.6066,15z/data=!4m2!3m1!1s0x0:0x27b30041cb1610ec?ved=2ahUKEwiXgOHb_tbeAhUDyFkKHUaBDCkQ_BIwDnoECAYQCA">251 Rue Beaubien E, Montréal, QC H2S 1R7</a></h3>
+					</div>
+					<div>
+						<h2>TÉLÉPHONE</h2>
+						<h3>(514) 379-1343</h3>
+					</div>
+					<div>
+						<h2>COURRIEL</h2>
+						<h3><a href="mailto:pelusobeaubien@gmail.com">pelusobeaubien@gmail.com</a></h3>
+					</div>
+				</div>
+
+				<div id="faq">
+					<div>
+						<h2>F.A.Q</h2>
+						<h3>Vendez-vous des bières importées? / Do you sell imported beers?</h3>
+						<p>Nous avons quelques bières importées comme toutes les épiceries ou tous les dépanneurs, mais nous sommes principalement spécialisés en bières de microbrasseries québécoises (nous en avons plus de 400!). De plus, vous devez savoir que la SAQ exerce un «monopole» sur les importations privées. Ainsi, nous pouvons seulement vous offrir des produits qui sont distribués par de grandes brasseries (ex : Stella Artois, Leffe, Heineken…), des bières qui sont brassées sous permission (ex : Sapporo, Bavaria…) ou des importations privées par certains groupes (ex : Krombacher, Clausthaler, St-Sylvestre…).</p>
+						<p>We have some imported beers as any grocery store or convenience stores, but we are mainly specialized in Quebec microbreweries (we have more than 400 different beers!). In addition, you should know that the SAQ has a « monopoly » on private imports. Thus, we can only offer products that are distributed by large breweries (eg Stella Artois, Leffe, Heineken …) beers that are brewed under license (eg Sapporo, Bavaria …) or imports by private groups (eg Krombacher Clausthaler, St-Sylvestre…).</p>
+					</div>
+				</div>
+				<div id="form-container">
+					<form method="get">
+						<fieldset>
+							<legend id="contact">CONTACTEZ-NOUS</legend>
+
+							<label for="monsieur">Monsieur</label>
+							<input id="monsieur" checked type="radio" name="genre" value="monsieur">
+							<label for="madame">Madame</label>
+							<input id="madame" type="radio" name="genre" value="madame">
+							<input id="prenomUsager" type="text" placeholder="Nom">
+							<input id="nomUsager" type="email" placeholder="Courriel">
+
+							<select name="age" id="c-age">
+								<option value="none" disabled selected>Raison du commentaire: </option>
+								<option value="inventaire">Question sur l'inventaire de bière</option>
+								<option value="nourriture">Question sur la nourriture</option>
+								<option value="autre">Autres</option>
+							</select>
+
+							<textarea name="commentaire" id="comments" rows="3" placeholder="Commentaire"></textarea>
+
+							<label class="info-lettre-texte">Inscription aux info-lettres
+								<input type="checkbox">
+								<span class="checkmark"></span>
+							</label>
+
+							<input type="submit" value="Envoyer">
+
+
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+			<iframe id="succursale-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.670543477066!2d-73.56522348447712!3d45.53683497910182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bebb163b30d%3A0x80bd7b0d904c8b39!2sBoni-Soir+-+D%C3%A9panneur+Peluso+inc.!5e0!3m2!1sfr!2sca!4v1542268158558" width="100%" height="300" allowfullscreen></iframe>
+
+		</section>
+
+		<footer>
+			<div class="pelusowatermark">
+				<div>&nbsp;</div>
+			</div>
+			<div id="infolettre"></div>
+			<nav id="nav-foot">
+				<ul>
+					<li><a href="index.html">accueil</a></li>
+					<li><a href="pages/galerie/index.html">galerie</a></li>
+					<li><a href="pages/contact/index.html">contactez-nous</a></li>
+					<li><a href="pages/contact/index.html">conditions générales</a></li>
+					<li><a href="pages/contact/index.html">politique de confidentialité</a></li>
+				</ul>
+			</nav>
+			<aside>
+				<div>&nbsp;</div>
+			</aside>
+			<aside class="social">
+				<ul>
+					<li><a href="../index.html"><img src="../../images/arobas.png" alt="arobas"></a></li>
+					<li><a href="../index.html"><img src="../../images/facebook.png" alt="facebook"></a></li>
+					<li><a href="../index.html"><img src="../../images/twitter.png" alt="twitter"></a></li>
+				</ul>
+			</aside>
+		</footer>
+	</div>
+</body>
+
+</html>
